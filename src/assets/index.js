@@ -22,7 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import academy from "./company/academy.png";
 import starbucks from "./company/starbucks.jpeg";
 import typify from "./company/typify media.jpeg";
 
@@ -53,7 +53,7 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
+  academy,
   starbucks,
   typify,
   carrent,
