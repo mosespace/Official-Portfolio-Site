@@ -53,7 +53,7 @@ Many people have contacted me asking me if they can use this code for their own 
 4. Start the development server
 
    ```sh
-   npm run start
+   npm run dev
    ```
 
 ## 🚀 Building and Running for Production
