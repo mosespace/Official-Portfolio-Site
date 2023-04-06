@@ -157,7 +157,7 @@ const experiences = [
   },
   {
     title: "UI Designer",
-    company_name: "Meta",
+    company_name: "Bantu Creative",
     icon: meta,
     iconBg: "#ffd53d",
     date: "Jan 2019 - Dec 2020",
@@ -178,38 +178,38 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/women/18.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Don Wanyama",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Next Media",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Christopher Landslen",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/10.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Kunga",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Whatever your interest, from coding and reading to networking and skill sharing, there are thousands of people who share it on Kunga. Events are happening every day—log in to join the fun!",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "gatsby",
         color: "green-text-gradient",
       },
       {
@@ -218,7 +218,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mosespace/Kunga",
+    live_preview: "https://kunga.gatsbyjs.io/",
   },
   {
     name: "Job IT",
