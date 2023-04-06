@@ -74,6 +74,8 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Let's get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className='text-white font-medium mb-4'>You can send me a message on whatsapp at +256-770-98-11-93 or send me a direct email at</p>
+        <p className="font-medium mb-4" style={{ color: styles.textOrange }}>kiskayemoses@gmail.com</p>
 
         <form
           ref={formRef}

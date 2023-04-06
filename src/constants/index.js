@@ -1,5 +1,6 @@
 import {
   mobile,
+  flowbite,
   backend,
   creator,
   web,
@@ -20,7 +21,7 @@ import {
   typify,
   academy,
   carrent,
-  jobit,
+  pycon,
   tripguide,
   threejs,
 } from "../assets";
@@ -157,7 +158,7 @@ const experiences = [
   },
   {
     title: "UI Designer",
-    company_name: "Meta",
+    company_name: "Bantu Creative",
     icon: meta,
     iconBg: "#ffd53d",
     date: "Jan 2019 - Dec 2020",
@@ -178,38 +179,38 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/women/18.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Don Wanyama",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Next Media",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Christopher Landslen",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/10.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Kunga",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Whatever your interest, from coding and reading to networking and skill sharing, there are thousands of people who share it on Kunga. Events are happening every day—log in to join the fun!",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "gatsby",
         color: "green-text-gradient",
       },
       {
@@ -218,19 +219,20 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mosespace/Kunga",
+    live_preview: "https://kunga.gatsbyjs.io/",
   },
   {
-    name: "Job IT",
+    name: "Pycon Ug",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "PyCon Uganda is one of the Python Conferences you can attend in World Wide. We shall talk about Python applications in data, web and other domains. This is a platform where Python users, developers, library developers and companies that use Python come together.This is going to be the 1st ever PyCon in Uganda!",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
@@ -238,29 +240,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pycon,
+    source_code_link: "https://github.com/mosespace/ug.pycon.org",
+    live_preview: "https://ug.pycon.org/",
   },
   {
-    name: "Trip Guide",
+    name: "Flowbite",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I contributed to the flowbite main website project! The most popular and open-source library of Tailwind CSS components Flowbite can be included as a plugin into an existing Tailwind CSS project and it is supposed to help you build websites faster by having a set of web components to work with built with the utility classes from Tailwind CSS.",
     tags: [
       {
-        name: "nextjs",
+        name: "typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "htmls",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: flowbite,
+    source_code_link: "https://github.com/mosespace/flowbite",
+    live_preview: "https://flowbite.com",
   },
 ];
 

@@ -2,8 +2,11 @@ import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
+import flowbite from "./flowbite.png";
+import pycon from "./pycon.png";
 import web from "./web.png";
 import github from "./github.png";
+import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -35,8 +38,11 @@ export {
   backend,
   creator,
   mobile,
+  flowbite,
+  pycon,
   web,
   github,
+  live,
   menu,
   close,
   css,
